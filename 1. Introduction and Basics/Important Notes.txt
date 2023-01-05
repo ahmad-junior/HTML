@@ -1,0 +1,53 @@
+---> HTML Stands for Hyper Text Markup Language.
+---> Use of HTML is to create and save web documents.
+---> HTML tells the browser how to display the content.
+
+Elements of HTML:
+---> HTML elements are the building blocks of HTML pages.
+---> HTML elements are represented by tags.
+---> HTML tags label pieces of content such as "heading", "paragraph", "table", and so on.
+
+Syntax of HTML:
+<tagName>Content goes here...</tagName>
+
+Heading Tags:
+---> Heading tags are used to define HTML headings.
+---> There are six heading tags in HTML.
+---> Heading tags are defined with the <h1> to <h6> tags.
+
+Paragraph Tags:
+---> The HTML <p> tag defines a paragraph.
+---> A paragraph always starts on a new line, and browsers automatically add some white space (a margin) before and after a paragraph.
+
+Formatting Tags:
+---> The HTML <b> tag defines bold text.
+---> The HTML <i> tag defines a part of text in an alternate voice or mood.
+---> The HTML <u> tag defines text that should be stylistically different from normal text.
+---> The HTML <s> tag defines text that is no longer correct, accurate or relevant.
+---> The HTML <mark> tag defines marked/highlighted text.
+---> The HTML <small> tag defines smaller text.
+---> The HTML <strong> tag defines important text.
+---> The HTML <em> tag defines emphasized text.
+---> The HTML <sub> tag defines subscripted text.
+---> The HTML <sup> tag defines superscripted text.
+
+HTML Attributes:
+---> HTML attributes provide additional information about HTML elements.
+---> Attributes are always specified in the start tag.
+---> Attributes usually come in name/value pairs like: name="value".
+
+HTML Comments:
+---> HTML comments are not displayed in the browser, but can be viewed by source code viewers.
+---> HTML comments start with <!-- and end with -->.
+
+Image Tags:
+---> The HTML <img> tag is used to embed an image in an HTML page.
+---> The <img> tag is empty, it contains attributes only, and does not have a closing tag.
+---> The <img> tag has two required attributes: src and alt.
+
+Hyperlink Tags:
+---> The HTML <a> tag defines a hyperlink, which is used to link from one page to another.
+---> The <a> tag uses the href attribute to indicate the link's destination.
+---> The <a> tag can be used in two ways:
+    ---> To create a link to another document
+    ---> To create a bookmark in the same document
