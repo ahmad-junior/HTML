@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2 - Forms</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Personl Details</legend>
+            <h3>Name*</h3>
+            <input type="text" placeholder="Enter your name" required/>
+            <h3>Father's Name*</h3>
+            <input type="text" placeholder="Enter your father name" required>
+            <br />
+            <br />
+            <h3>Email*</h3>
+            <input type="email" placeholder="Enter your email" required/>
+            <br />
+            <br />
+            <h3>Password*</h3>
+            <input type="password" name="password" placeholder="Enter your password" required>
+            <input type="password" name="password" placeholder="Confirm Password" required>
+            <br />
+            <br />
+            <h3>Gender</h3>
+            <input type="radio" name="gender" />
+            Male
+            <input type="radio" name="gender" />
+            Felmale
+            <input type="radio" name="gender" />
+            Other
+            <br />
+            <br />
+            <h3>Date of birth*</h3>
+            <input type="date" required>
+            <br />
+            <br />
+            <h3>Write about yourself</h3>
+            <center><textarea name="message" cols="50" rows="20" placeholder="Write something here..."></textarea></center>
+            <h3>Hobbies</h3>
+            <input type="checkbox" name="hobbies[]" />
+            Cricket
+            <input type="checkbox" name="hobbies[]" />
+            Football
+            <input type="checkbox" name="hobbies[]" checked />
+            Hockey
+            <input type="checkbox" name="hobbies[]" />
+            Other
+            <br />
+            <br />
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
